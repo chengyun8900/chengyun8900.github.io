@@ -4,6 +4,12 @@
 <title>1</title>
 </head>
 
-<body>111
+<body>
+  <script type="text/javascript">
+　　var ua = navigator.userAgent.toLowerCase();
+if (/chrome|android|iphone|ipad|phone/i.test(ua)) {
+   window.location.href = "http://m.example.com";
+}
+　　</script>
 </body>
 </html>
