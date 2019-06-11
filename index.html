@@ -6,10 +6,11 @@
 
 <body>
   <script type="text/javascript">
-　　var ua = navigator.userAgent.toLowerCase();
-if (/chrome|android|iphone|ipad|phone/i.test(ua)) {
-   window.location.href = "http://m.example.com";
-}
+var ua = window.navigator.userAgent;
+if (ua.match) {
+  location.href = 'http://m.baidu.com';
+} 
+    
 　　</script>
 </body>
 </html>
